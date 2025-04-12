@@ -1,5 +1,6 @@
 import Header from '../../components/Header'
 import HeroSection from '../../components/HeroSection'
+import Cards from '../../components/Cards'
 
 function Home() {
 
@@ -12,6 +13,7 @@ function Home() {
           Saiba dicas essenciais para dar o conforto que o seu pet merece!
         </h2>
       </div>
+      <Cards />
     </div>
   )
 }
