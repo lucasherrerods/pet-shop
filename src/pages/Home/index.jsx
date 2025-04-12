@@ -1,6 +1,7 @@
 import Header from '../../components/Header'
 import HeroSection from '../../components/HeroSection'
 import Cards from '../../components/Cards'
+import Footer from '../../components/Footer'
 
 function Home() {
 
@@ -14,6 +15,7 @@ function Home() {
         </h2>
       </div>
       <Cards />
+      <Footer />
     </div>
   )
 }
